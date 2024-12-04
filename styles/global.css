@@ -1,0 +1,139 @@
+@import '/node_modules/modern-normalize/modern-normalize.css';
+
+:root {
+  line-height: calc(1em + 0.5rem);
+}
+
+h1, h2, h3, h4, h5, figure, p, ol, ul {
+  margin: 0;
+}
+
+ol[role="list"], ul[role="list"] {
+  list-style: none;
+  padding-inline: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+#root, #__next {
+  isolation: isolate;
+}
+
+@font-face {
+    font-family: 'Norse';
+    src: url('../assets/fonts/norse-bold-webfont.woff2') format('woff2'),
+        url('../assets/fonts/Norse-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+.form-container {
+  display: flex;
+}
+.form-container-image-form{
+  width: calc(100vw/3) ;
+  height: 100vh;
+  background-image: url(/assets/images/forest.jpg);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-color: gray;
+}
+.form-container-image-form-logo{
+  max-width: 10em;
+  max-height: 10em;
+  width: auto;
+  height: auto;
+}
+
+.form-container-image-form-text{
+  font-family: Norse, 'Times New Roman', Times, serif;
+  font-size: 8rem;
+  color: white;
+  line-height: 1;
+  
+}
+
+.form-container-create-account{
+  background-color: red;
+}
+
+.form-container-image-form-logo-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; 
+  width: 100%;
+  top: 100px;
+  height: 400px;
+  
+}
+
+.form-container-image-form-logo-text::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.4;
+  z-index: 1;
+}
+
+.form-container-image-form-logo-text>*{
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+
+.form-container-image-form{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.form-container-image-form-author::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.4;
+  z-index: 1;
+}
+
+.form-container-image-form-author{
+  position: relative;
+  z-index: 2;
+  color: white;
+}
