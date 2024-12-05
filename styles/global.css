@@ -75,7 +75,6 @@ h1, h2, h3, h4, h5, h6 {
 .form-container-image-form-text{
   font-family: Norse, 'Times New Roman', Times, serif;
   font-size: 8rem;
-  color: white;
   line-height: 1;
   
 }
@@ -91,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative; 
   width: 100%;
   top: 100px;
-  height: 400px;
+  height: 200px;
   
 }
 
@@ -108,7 +107,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .form-container-image-form-logo-text>*{
-  position: relative;
   z-index: 2;
   color: white;
 }
@@ -120,7 +118,11 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
 }
 
-.form-container-image-form-author::before{
+.form-container-image-form-bottom-author{
+  position: relative;
+}
+
+.form-container-image-form-bottom-author::before{
   content: "";
   position: absolute;
   top: 0;
@@ -132,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 1;
 }
 
-.form-container-image-form-author{
+.form-container-image-form-bottom-author>*{
   position: relative;
   z-index: 2;
   color: white;
