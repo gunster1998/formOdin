@@ -168,7 +168,11 @@ body {
 }
 
 .form-container-image-form-bottom-author {
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-style: normal;
   position: relative;
+
 }
 
 .form-container-image-form-bottom-author::before {
@@ -253,9 +257,6 @@ input:focus {
 }
 
 .form-container-button-button {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: normal;
   font-size: 18px;
   color: #f7f7f7;
   background-color: #596D48;
@@ -267,5 +268,8 @@ input:focus {
 }
 
 .form-container-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
   margin-left: 50px;
 }
