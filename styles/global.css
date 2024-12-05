@@ -108,7 +108,7 @@ body {
 .form-container-image-form {
   width: calc(100vw/4);
   height: 100vh;
-  background-image: url(/assets/images/forest.jpg);
+  background-image: url(../assets/images/forest.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: gray;
