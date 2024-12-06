@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/modern-normalize.css">
     <link rel="stylesheet" href="./styles/global.css">
+
     <title>formOdin</title>
 </head>
 
@@ -30,7 +31,7 @@
                 <div class="form-container-action-form-heading">
                     <h1>Давайте начнем!</h1>
                 </div>
-                <form action method="get" id="form-input">
+                <form action method="post"  id="form-input">
                     <div class="input-row">
                         <div class="input-form">
                             <label for="firstName">Имя</label>
@@ -62,14 +63,17 @@
                             <input type="password" name="password2" id="password2" required>
                         </div>
                     </div>
+                    <div id="error-message" style="color: red; display: none;">Пароли не совпадают!</div>
+                    <div class="form-container-button">
+                        <button id="button-send" class="form-container-button-button">Создать аккаунт</button>
+                        <div class="form-container-button-text">Уже есть аккаунт? <a href="#">Войдите</a></div>
+                    </div>
                 </form>
             </div>
-            <div class="form-container-button">
-                <button class="form-container-button-button">Создать аккаунт</button>
-                <div class="form-container-button-text">Уже есть аккаунт? <a href="#">Войдите</a></div>
-            </div>
+
         </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 
 </html>

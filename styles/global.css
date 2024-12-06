@@ -264,11 +264,12 @@ input:focus {
   box-shadow: none;
   margin-bottom: 10px;
   border: none;
+  cursor: pointer;
 }
 
 .form-container-button {
+  margin-top: 20px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-style: normal;
-  margin-left: 50px;
 }
