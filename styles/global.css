@@ -231,11 +231,11 @@ p {
   margin: 20px 50px 50px 50px;
 }
 
-.input-form+.input-form {
+.form-group+.form-group {
   margin-left: 50px;
 }
 
-.input-form {
+.form-group {
   font-family: "Roboto", sans-serif;
 }
 
