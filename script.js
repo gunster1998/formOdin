@@ -1,4 +1,6 @@
-document.getElementById('button-send').addEventListener('click', function (event) {
+const form = document.getElementById('form-input');
+
+form.addEventListener('submit', function (event) {
     event.preventDefault();
 
     const password = document.getElementById('password').value
